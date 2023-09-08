@@ -38,7 +38,11 @@ body {
   margin: 0;
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
-  line-height: 1.6;
+  line-height: 1.1;
+}
+
+section {
+  padding: 5em 2em;
 }
 
 img {
@@ -89,4 +93,17 @@ h3 {
 .section__subtitle--about {
   background-color: var(--clr-accent);
   font-family: var(--ff-secondary);
+  margin-bottom: 1em;
+}
+
+/* header */
+
+.nav {
+  display: none;
+}
+
+/* Intro Section */
+
+.intro {
+  position: relative;
 }
