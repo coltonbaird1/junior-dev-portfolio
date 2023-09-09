@@ -142,7 +142,7 @@ header {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 200px;
 }
 
 .nav {
@@ -283,6 +283,7 @@ header {
   }
 }
 
+/* My services */
 .my-services {
   background-color: darkgrey;
   background-image: url(../imgs/mac-img.jpeg);
@@ -442,4 +443,18 @@ header {
 
 .social-list__item {
   margin: 0 0.5em;
+}
+
+/* Portfolio item */
+
+.portfolio-item-individual {
+  padding: 0 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
